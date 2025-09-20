@@ -11,7 +11,7 @@ public class SecurityManager {
 	// constant user_file for UserData.txt
 	private static final String USER_FILE = "userData.txt";
 	//our key for AES encryption/decryption *must be 16 bytes*
-	private static final String key = "1234567891234567";
+	private static final String key = "1234567891234567"; //bad sec practice having this in scorce code 
 
 	// used to handle password hashing and the authentication. It will also handle
 	// the brute force protection, by tracking the failed login attempts and enforce
